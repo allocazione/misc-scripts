@@ -4,10 +4,10 @@ import sys
 import argparse
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 from pathlib import Path
 from colorama import Fore, init
-import webbrowser  # For opening the VLC download page
+import webbrowser
 
 # Initialize colorama
 init(autoreset=True)
