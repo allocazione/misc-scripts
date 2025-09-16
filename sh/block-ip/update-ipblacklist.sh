@@ -24,7 +24,7 @@ mkdir -p "$WORKDIR"
 
   # CREAZIONE O SVUOTAMENTO IPSET
   if ! ipset list "$SETNAME" &>/dev/null; then
-      ipset create "$SETNAME" hash:ip
+      ipset create "$SETNAME" hash:net
       echo "[$(date '+%Y-%m-%d %H:%M:%S')] [INFO] ipset $SETNAME creato."
   else
       ipset flush "$SETNAME"
