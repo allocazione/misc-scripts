@@ -1,6 +1,7 @@
 #!/bin/bash
 
-WORKDIR="/home/tommy/block-ip"
+HOSTNAME=$(hostname)
+WORKDIR="/home/$HOSTNAME/block-ip" #Intended to work for servers, otherwise it will be $HOSTNAME/home/
 UPDATE_SCRIPT="$WORKDIR/update-ipblacklist.sh"
 
 while true; do
