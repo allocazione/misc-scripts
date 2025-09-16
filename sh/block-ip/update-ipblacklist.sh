@@ -1,8 +1,16 @@
 #!/bin/bash
 
 # === CONFIG ===
-HOSTNAME=$(hostname)
-WORKDIR="/home/$HOSTNAME/block-ip" #Intended to work for servers, otherwise it will be $HOSTNAME/home/
+# Set working directory to current path + /block-ip
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+WORKDIR="${SCRIPT_DIR%/}/block-ip"
+
+# Create directory if it doesn't exist
+if [ ! -d "$WORKDIR" ]; then
+    mkdir -p "$WORKDIR"
+    echo "[INFO] Created working directory: $WORKDIR"
+fi
+
 FILE="$WORKDIR/ipblacklist.txt"
 URL="https://raw.githubusercontent.com/LittleJake/ip-blacklist/main/all_blacklist.txt"
 LOG="$WORKDIR/log/update-ipblacklist.log"
