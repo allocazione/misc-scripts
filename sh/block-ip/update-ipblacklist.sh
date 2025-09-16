@@ -2,7 +2,7 @@
 
 # === CONFIG ===
 HOSTNAME=$(hostname)
-WORKDIR="/home/$HOSTNAME/block-ip"
+WORKDIR="/home/$HOSTNAME/block-ip" #Intended to work for servers, otherwise it will be $HOSTNAME/home/
 FILE="$WORKDIR/ipblacklist.txt"
 URL="https://raw.githubusercontent.com/LittleJake/ip-blacklist/main/all_blacklist.txt"
 LOG="$WORKDIR/log/update-ipblacklist.log"
