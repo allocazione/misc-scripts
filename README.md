@@ -75,9 +75,11 @@ This repository contains a set of utility scripts written in AutoHotkey, Python,
 - **`block-country.sh`**: Script to block IPs from a specific country.
 - **`update-blacklist.sh`**: Updates the IP blacklist from a source.
 
----
+<div align="center">
 
 ## 📊 Star Graph
+
+</div>
 
 <a href="https://www.star-history.com/#allocazione/seloris-toolkit&Timeline">
  <picture>
