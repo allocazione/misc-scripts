@@ -156,7 +156,9 @@ This repository contains a set of utility scripts written in AutoHotkey, Python,
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have suggestions for improvements.
 
 </div>
+
 ---
+
 <p align="center">Made with ❤️ by Selene</p>
 
 </div>
