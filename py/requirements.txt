@@ -1,0 +1,4 @@
+pyperclip
+moviepy
+colorama
+pyautogui
