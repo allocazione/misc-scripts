@@ -10,7 +10,9 @@ This repository contains a set of utility scripts written in AutoHotkey, Python,
 
 ## 🌳 Repository Structure
 
-```
+</div>
+
+```txt
 .
 ├── README.md
 ├── ahk
@@ -36,22 +38,39 @@ This repository contains a set of utility scripts written in AutoHotkey, Python,
             └── update-blacklist.sh
 ```
 
----
+<div align="center">
 
 ## 🚀 Scripts Overview
 
+</div>
+
+<div align="center">
+
 ### AutoHotkey (`.ahk`)
+
+</div>
+
 - **`tilde_it.ahk` / `tilde_it_altgr.ahk`**: Scripts for easily typing the tilde (~) character.
 - **`winf_terminal.ahk`**: A shortcut to quickly open a terminal window.
 
+<div align="center">
+
 ### Python (`.py`)
+
+</div>
+
 - **`colorizer.py`**: A script to help colorize text for specific platforms.
 - **`to_mp3.py`**: Converts video files to MP3 format.
 - **`word_counter.py`**: Counts words from text input or a file.
 - **`hash_check.py`**: Calculates and compares the SHA-256 hashes of two files to check for identity.
 - **`spam.py`**: A simple script to automate sending multiple messages.
 
+<div align="center">
+
 ### Shell (`.sh`)
+
+</div>
+
 - **`sentinel.sh`**: A panel to manage IP blacklisting.
 - **`block-country.sh`**: Script to block IPs from a specific country.
 - **`update-blacklist.sh`**: Updates the IP blacklist from a source.
@@ -68,7 +87,7 @@ This repository contains a set of utility scripts written in AutoHotkey, Python,
  </picture>
 </a>
 
----
+<div align="center">
 
 ## 🖼️ Script Previews
 
@@ -85,11 +104,16 @@ This repository contains a set of utility scripts written in AutoHotkey, Python,
 
 </details>
 
----
+</div>
+
+<div align="center">
 
 ## ⚙️ Installation & Usage
 
 ### Python Scripts
+
+</div>
+
 1.  Navigate to the `py` directory.
 2.  Install the required packages:
     ```bash
@@ -100,11 +124,21 @@ This repository contains a set of utility scripts written in AutoHotkey, Python,
     python <script_name>.py
     ```
 
+<div align="center">
+
 ### AutoHotkey Scripts
+
+</div>
+
 1.  Ensure you have [AutoHotkey](https://www.autohotkey.com/) installed.
 2.  Double-click any `.ahk` file to run it.
 
+<div align="center">
+
 ### Shell Scripts
+
+</div>
+
 1.  Navigate to the `sh` directory or its subdirectories.
 2.  Make the script executable:
     ```bash
@@ -115,10 +149,13 @@ This repository contains a set of utility scripts written in AutoHotkey, Python,
     ./<script_name>.sh
     ```
 
+<div align="center">
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have suggestions for improvements.
 
+</div>
 ---
 <p align="center">Made with ❤️ by Selene</p>
 
