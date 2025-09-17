@@ -103,7 +103,7 @@ This repository contains a set of utility scripts written in AutoHotkey, Python,
 | **`to_mp3.py`** | ![Word Counter](images/to_mp3.png) |
 | **`hash_check.py`**   | ![Hash Check](images/hash_checker.png) |
 | **`spam.py`**         | ![Spam](images/spam.png) |
-| **`blacklist-panel.sh`**| ![Blacklist Panel]() |
+| **`blacklist-panel.sh`**| ![Blacklist Panel](images/sentinel.png) |
 
 </details>
 
