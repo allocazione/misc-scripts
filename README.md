@@ -98,10 +98,11 @@ This repository contains a set of utility scripts written in AutoHotkey, Python,
 
 | Script                | Preview                                                              |
 | --------------------- | -------------------------------------------------------------------- |
-| **`colorizer.py`**    | ![Colorizer]() |
-| **`word_counter.py`** | ![Word Counter]() |
-| **`hash_check.py`**   | ![Hash Check]() |
-| **`spam.py`**         | ![Spam]() |
+| **`colorizer.py`**    | ![Colorizer](images/colorizer.png) |
+| **`word_counter.py`** | ![Word Counter](images/word_counter.png) |
+| **`to_mp3.py`** | ![Word Counter](images/to_mp3.png) |
+| **`hash_check.py`**   | ![Hash Check](images/hash_checker.png) |
+| **`spam.py`**         | ![Spam](images/spam.png) |
 | **`blacklist-panel.sh`**| ![Blacklist Panel]() |
 
 </details>
